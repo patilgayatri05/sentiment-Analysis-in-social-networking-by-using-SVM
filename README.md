@@ -4,6 +4,81 @@ This project performs sentiment analysis on user comments using **Support Vector
 
 ---
 
+## 📌 Table of Contents
+- [📖 Overview](#-overview)
+- [🧠 How It Works](#-how-it-works)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [🚀 How to Run](#-how-to-run)
+- [📊 Results](#-results)
+- [🤝 Contributing](#-contributing)
+- [📃 License](#-license)
+
+---
+
+## 📖 Overview
+
+This project performs sentiment classification (Positive, Negative, Neutral) on user comments from social networking platforms using an SVM classifier. The goal is to predict the sentiment of a given sentence and visualize the results effectively.
+
+---
+
+## 🧠 How It Works
+
+1. Preprocess the text (cleaning, stopwords removal, etc.)
+2. Convert text into numerical features using **TF-IDF**
+3. Train an **SVM classifier**
+4. Predict sentiment for new/unseen text
+5. Visualize and evaluate accuracy, precision, and recall
+
+---
+
+## 🛠️ Technologies Used
+
+- 🐍 Python
+- 💡 Scikit-learn (SVM, TF-IDF)
+- 📊 Pandas, NumPy, Matplotlib
+- 🧼 NLTK (for preprocessing)
+- 📁 Jupyter Notebook
+
+---
+
+## 🚀 How to Run
+
+### 🔧 Install Dependencies
+
+```bash
+pip install -r requirements.txt
+▶️ Run the Notebook
+bash
+Copy
+Edit
+jupyter notebook Sentiment_Analysis_SVM.ipynb
+📄 Sample Dataset
+Ensure training.csv is in your project directory. It should contain:
+
+c
+Copy
+Edit
+Text,Sentiment
+"I love this product!",Positive
+"This is terrible.",Negative
+📊 Results
+✔️ Accuracy: 90%+
+
+✔️ Handles noisy social media data
+
+✔️ Classifies text into: Positive / Negative / Neutral
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+📃 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🌐 Connect With Me
+LinkedIn
+
+GitHub
+
 ## 🚀 How to Run the Project
 
 ### 1. ✅ Requirements
@@ -42,11 +117,3 @@ Replace newsportalnew with your actual folder name.
 
 5. 🐍 Running the Python Sentiment Script (If Needed)
 If your PHP page calls a Python file using shell_exec, ensure Python is added to your system path.
-
-Example in PHP:
-
-php
-Copy
-Edit
-$output = shell_exec("python sentiment.py");
-echo $output;
