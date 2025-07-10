@@ -68,27 +68,33 @@ Text,Sentiment
 
 ✔️ Classifies text into: Positive / Negative / Neutral
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-📃 License
+## 📃 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🌐 Connect With Me
-LinkedIn
+## 🌐 Connect With Me
 
-GitHub
+<p align="left">
+  <a href="https://www.linkedin.com/in/gayatri-patil-0388a027b/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="32" height="32"/>
+  </a>
+  <a href="https://github.com/patilgayatri05" target="_blank">
+    <img src="https://img.icons8.com/glyph-neue/48/000000/github.png" alt="GitHub" width="32" height="32"/>
+  </a>
+</p>
 
 ## 🚀 How to Run the Project
 
-### 1. ✅ Requirements
+## 1. ✅ Requirements
 
 - XAMPP (Download from: https://www.apachefriends.org/index.html)
 - Python (3.x)
 - Python packages:
   ```bash
   pip install pandas scikit-learn flask
-2. 📁 Project Folder Setup
+## 2. 📁 Project Folder Setup
 Place your entire project folder (e.g. newsportalnew/) inside:
 
 makefile
@@ -97,7 +103,7 @@ Edit
 C:\xampp\htdocs\
 Make sure your Python script is inside the same project and can be called using shell_exec() from PHP.
 
-3. ⚙️ Start Apache Server
+## 3. ⚙️ Start Apache Server
 Open XAMPP Control Panel
 
 Click Start next to:
@@ -106,7 +112,7 @@ Apache ✅
 
 MySQL (if your project uses a database)
 
-4. 🌐 Access the Project
+## 4. 🌐 Access the Project
 Open your browser and go to:
 
 arduino
@@ -115,5 +121,5 @@ Edit
 http://localhost/newsportalnew/
 Replace newsportalnew with your actual folder name.
 
-5. 🐍 Running the Python Sentiment Script (If Needed)
+## 5. 🐍 Running the Python Sentiment Script (If Needed)
 If your PHP page calls a Python file using shell_exec, ensure Python is added to your system path.
