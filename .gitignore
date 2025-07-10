@@ -1,0 +1,47 @@
+# Ignore common Python stuff
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.sqlite3
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore plugins (if 3rd-party)
+plugins/
+
+# Ignore node modules and vendor
+node_modules/
+vendor/
+
+# Ignore OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore log and environment files
+*.log
+.env
+.env.*
+
+# Ignore build/output folders
+dist/
+build/
+
+# Ignore folders
+newsportalnew/
+python/
+node_modules/
+venv/
+plugins/
+
+# Ignore files (if needed)
+*.pdf
+*.sql
