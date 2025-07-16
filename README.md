@@ -34,10 +34,10 @@ This project performs sentiment classification (Positive, Negative, Neutral) on 
 ## 🛠️ Technologies Used
 
 - 🐍 Python
-- 💡 Scikit-learn (SVM, TF-IDF)
-- 📊 Pandas, NumPy, Matplotlib
-- 🧼 NLTK (for preprocessing)
-- 📁 Jupyter Notebook
+- 💡 PHP
+- 📊 Support Vector Machine (SVM)
+- 🧼 Frontern : HTML, CSS, JS
+- 📁 Backend : PHP , XAMPP Server
 
 ---
 
